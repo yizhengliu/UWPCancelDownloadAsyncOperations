@@ -104,6 +104,7 @@ namespace CancelDownloadAsyncOperationsUWP
             //information about the content
             try
             {
+                //
                 //custom if defined time (3 and half seconds) is passed for the downloading 
                 s_cts.CancelAfter(3500);
                 await SumPageSizesAsync();
